@@ -30,6 +30,7 @@ header {
     justify-content: space-between;
     width: auto;
     height: 11rem;
+    z-index: 9999;
     position: sticky;
     top: 0;
     animation-duration: 5s;
@@ -144,6 +145,15 @@ footer h6 a {
 
 }
 
+.carousel-bss {
+
+    height: 60rem;
+    width: 60rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+
+}
+
 .img-flex {
 
     display: flex;
@@ -251,6 +261,7 @@ footer h6 a {
     font-size: 2rem;
     padding: 3rem;
     line-height: 2;
+    width: 100%;
     background-color: darkcyan;
     border: 2px solid darkslategray;
 
@@ -276,6 +287,10 @@ footer h6 a {
     padding: 5rem;
     overflow: scroll;
 
+}
+
+.section__costumbres {
+    margin-bottom: 10rem;
 }
 
 
@@ -530,6 +545,12 @@ header {
     width: auto;
     height: auto;
 
+}
+
+.carousel-bss {
+    width: auto;
+    height: auto;
+    margin-top: 2rem;
 }
 
 .flex__mapa {
