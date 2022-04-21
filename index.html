@@ -50,8 +50,9 @@
 
     <section class="g2">
             <div class="titulo"><h1 class="display-1">ESPACIO CÓRDOBA</h1></div>
-        <article>
-            <p class="titulo__parrafo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <article class="lead">
+            <p class="titulo__parrafo">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </article>
     </section>
 
@@ -62,45 +63,45 @@
     </section>
 
         <form  id="formulario" class="g4">
-                <fieldset>
+                <fieldset class="formulario__items">
 
-            <legend>Información de contacto</legend>
+                <legend class="display-4">Información de contacto</legend>
 
             <div class="formulario__items">
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" required placeholder="Ingresar nombre">
             </div>
 
-            <div>
+            <div class="formulario__items">
                 <label for="apellido">Apellido</label>
                 <input type="text" id="apellido" required placeholder="Ingresar apellido">
             </div>
 
-            <div>
+            <div class="formulario__items">
                 <label for="edad">Edad</label>
                 <input type="number" name="edad" min="18" max="99" required>
             </div>
                 
-            <div>
+            <div class="formulario__items">
                 <label for="email">Email</label>
                 <input type="email" id="email" required placeholder="Ingresar email">
             </div>
 
-            <div>
+            <div class="formulario__items">
                 <label for="telefono">Telefono</label>
                 <input type="tel" id="telefono" required placeholder="ingrese su telefono">
             </div>
 
-            <div>
+            <div class="formulario__items">
                 <label for="password">Contraseña</label>
                 <input type="password" id="password" required placeholder="Ingrese su contraseña">
             </div>
 
-            <textarea maxlength="140" rows="5">Dejanos tu comentario</textarea>
+            <textarea maxlength="140" rows="5" class="formulario__items">Dejanos tu comentario</textarea>
 
-            <div>
-            <input type="submit" value="enviar">
-            <input type="reset" value="borrar">
+            <div class="formulario__items--btn">
+                <input type="submit" value="enviar">
+                <input type="reset" value="borrar">
             </div>
         </fieldset>
 
